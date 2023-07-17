@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+@font-face {
+	font-family: 'iran_sans_bold';
+	src: url('../Fonts/iran_sans_bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'iran_sans_light';
+	src: url('../Fonts/iran_sans_light.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'iran_sans_medi';
+	src: url('../Fonts/iran_sans_medi.woff') format('woff');
+}
+
+
+*{
+	font-family: iran_sans_light;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .2s linear;
+}
+
+jsp{
+	font-size: 60%;
+	overflow: hidden;
+	scroll-padding-top: 6rem;
+	scroll-behavior: smooth;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background: white;
+	padding: 2rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	}
