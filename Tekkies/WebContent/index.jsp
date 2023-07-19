@@ -33,7 +33,7 @@ Prodotto realizzato utilizzando materiale riciclato ottenuto da scarti di produz
 					<a href="#" class="btn">Aggiungi al carrello</a>
 				</div>
 				<div class="image">
-					<img src="imgs/slide/adi2000.png" class="shoe">
+					<img src="imgs/slide/adi2000.png" class="shoe" alt="first shoe">
 				</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@ Prodotto realizzato utilizzando materiale riciclato ottenuto da scarti di produz
 					<a href="#" class="btn">Aggiungi al carrello</a>
 				</div>
 				<div class="image">
-					<img src="imgs/slide/adi2000white.png" class="shoe">
+					<img src="imgs/slide/adi2000white.png" class="shoe" alt="second shoe">
 				</div>
 			</div>
 		</div>
@@ -75,7 +75,7 @@ La tomaia è composta per almeno il 50% da materiali riciclati. Questo prodotto è
 					<a href="#" class="btn">Aggiungi al carrello</a>
 				</div>
 				<div class="image">
-					<img src="imgs/slide/adi2000grey.png" class="shoe">
+					<img src="imgs/slide/adi2000grey.png" class="shoe" alt="third shoe">
 				</div>
 			</div>
 		</div>

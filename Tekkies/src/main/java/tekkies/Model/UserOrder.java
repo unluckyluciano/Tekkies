@@ -72,6 +72,15 @@ public class UserOrder {
 	}
 	
 	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + order_id;
+		result = prime * result + order_user_id;
+		return result;
+	}
+	
+	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;

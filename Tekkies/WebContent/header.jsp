@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="widht=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
 	<header>
 		<div id="menu-bar" class="fa fa-bars"></div>
 			
-			<a href="#"><img src="imgs/logo.png" class="logo"></a>
+			<a href="#"><img src="imgs/logo.png" class="logo" alt="logo"></a>
 			
 			<nav class="navbar">
 				<a href="#home">Home</a>
