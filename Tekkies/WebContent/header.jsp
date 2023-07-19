@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<meta name="viewport" content="widht=device-width, initial-scale=1">
 <title>Tekkies</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/header-style.css">

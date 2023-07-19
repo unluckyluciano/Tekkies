@@ -6,11 +6,12 @@ header{
 	left: 0;
 	right: 0;
 	z-index: 1000;
-	background: white;
+	background: #fff;
 	padding: 2rem 9%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 	}
 	
 header .logo{
@@ -20,7 +21,7 @@ header .logo{
 header .navbar a{
 	font-size: 1.5rem;
 	color: #000;
-	margin: 0 1rem;
+	margin: 0 2rem;
 }
 
 header .navbar a:hover{
@@ -52,7 +53,7 @@ header .icons a:hover{
 
 
 /* Responsive */
-@media (max-width:768px){
+@media (max-width:1366px){
 	#menu-bar{
 		display: block;
 	}

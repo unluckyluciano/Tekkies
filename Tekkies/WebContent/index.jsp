@@ -4,6 +4,7 @@
 <html lang="it">
 	<head>
 		<meta charset="ISO-8859-1">
+		<meta name="viewport" content="widht=device-width, initial-scale=1">
 		<title>Tekkies</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
@@ -82,7 +83,11 @@ La tomaia è composta per almeno il 50% da materiali riciclati. Questo prodotto è
 		<div id="prev" class="fa fa-chevron-left" onclick="prev()"></div>
 		<div id="next" class="fa fa-chevron-right" onclick="next()"></div>
 	
-	</section>		
+	</section>
+	
+	<section class="prodotti" id="prodotti">
+		<h1></h1>
+	</section> 
 	
 	<%@ include file="footer.jsp" %>
 			

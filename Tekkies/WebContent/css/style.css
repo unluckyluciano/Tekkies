@@ -155,3 +155,20 @@ section{
 	right: 3rem;
 }
 
+@media (max-width:1366px){
+	
+	.home #prev, .home #next{
+		display: none;
+	}
+
+	.home .slide-container .slide .image{
+	
+		display: none;
+	}
+}
+	
+@media (min-width:1366px) and (max-width: 1900px){
+	.home .slide-container .slide .image .shoe{
+		width: 50%;
+	}
+}
