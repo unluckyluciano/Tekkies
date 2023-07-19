@@ -59,4 +59,14 @@ public class Cart
 			}
 		}
  	}
+	
+	public List<CartProduct> getProducts() 
+	{
+		return  products;	
+	}
+	
+	public boolean isEmpty() 
+	{
+		return products.isEmpty();
+	}
 }

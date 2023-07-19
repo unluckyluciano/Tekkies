@@ -35,6 +35,11 @@ public class OrderDetails {
 		return qty;
 	}
 	
+	public void setQty(int qty)
+	{
+		this.qty = qty;
+	}
+	
 	public BigDecimal getPrice()
 	{
 		return price;

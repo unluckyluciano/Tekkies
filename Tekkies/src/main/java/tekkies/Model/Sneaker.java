@@ -14,12 +14,14 @@ public class Sneaker {
 	private String type = "";
 	private String color = "";
 	private int size = 0;
+	private String base64Image = "";
+	private InputStream inputStreamImage = null;
 	
-	public int getSneakerId()
+	public int getSneakerID()
 	{
 		return sneaker_id;
 	}
-	public void setSneakerId(int sneaker_id) 
+	public void setSneakerID(int sneaker_id) 
 	{
 		this.sneaker_id = sneaker_id;
 	}
@@ -39,7 +41,7 @@ public class Sneaker {
 		return price;
 	}
 	
-	public void getPrice(BigDecimal price) 
+	public void setPrice(BigDecimal price) 
 	{
 		this.price = price;
 	}
@@ -92,6 +94,19 @@ public class Sneaker {
 	public void setSize(int size)
 	{
 		this.size = size;
+	}
+	
+	public void setBase64Image(String base64Image) 
+	{
+		this.base64Image = base64Image;
+	}
+	
+	public InputStream getInputStreamImage() 
+	{
+		return inputStreamImage;
+	}
+	public void setInputStreamImage(InputStream inputStreamImage) {
+		this.inputStreamImage = inputStreamImage;
 	}
 	
 	@Override

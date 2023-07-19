@@ -29,7 +29,7 @@ public class User {
 	{
 		return psw;
 	}
-	public void setPw(String psw)
+	public void setPsw(String psw)
 	{
 		this.psw = psw;
 	}

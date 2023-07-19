@@ -29,7 +29,7 @@
 	transition: all .2s linear;
 }
 
-jsp{
+html{
 	font-size: 60%;
 	overflow: hidden;
 	scroll-padding-top: 6rem;
