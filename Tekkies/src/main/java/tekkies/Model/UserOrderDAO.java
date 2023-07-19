@@ -24,6 +24,7 @@ public class UserOrderDAO {
 	private static DataSource ds;
 	static Logger logger = Logger.getLogger(UserOrderDAO.class.getName());
 	static final String SELECT_ALL = "SELECT * FROM ";
+	static final String ORDER_ID = "order_id";
 	static final String USER_ID = "order_user_id";
 	static final String SHIPPING_ADDRESS = "shipping_address";
 	static final String ORDER_STATUS = "order_status";
@@ -60,7 +61,7 @@ public class UserOrderDAO {
 				
 				rs = ps.executeQuery();
 				while(rs.next()) {
-					bean.setOrderID(rs.getInt("order_id"));
+					bean.setOrderID(rs.getInt(ORDER_ID));
 					bean.setOrderUserID(rs.getInt(USER_ID));
 					bean.setShippingAddress(rs.getString(SHIPPING_ADDRESS));
 					bean.setOrderStatus(rs.getString(ORDER_STATUS));
@@ -103,7 +104,7 @@ public class UserOrderDAO {
 				while(rs.next()) {
 					UserOrder bean = new UserOrder();
 					
-					bean.setOrderID(rs.getInt("order_id"));
+					bean.setOrderID(rs.getInt(ORDER_ID));
 					bean.setOrderUserID(rs.getInt(USER_ID));
 					bean.setShippingAddress(rs.getString(SHIPPING_ADDRESS));
 					bean.setOrderStatus(rs.getString(ORDER_STATUS));
@@ -146,7 +147,7 @@ public class UserOrderDAO {
 				while(rs.next()) {
 					UserOrder bean = new UserOrder();
 					
-					bean.setOrderID(rs.getInt("order_id"));
+					bean.setOrderID(rs.getInt(ORDER_ID));
 					bean.setOrderUserID(rs.getInt(USER_ID));
 					bean.setShippingAddress(rs.getString(SHIPPING_ADDRESS));
 					bean.setOrderStatus(rs.getString(ORDER_STATUS));
@@ -190,7 +191,7 @@ public class UserOrderDAO {
 				while(rs.next()) {
 					UserOrder bean = new UserOrder();
 					
-					bean.setOrderID(rs.getInt("order_id"));
+					bean.setOrderID(rs.getInt(ORDER_ID));
 					bean.setOrderUserID(rs.getInt(USER_ID));
 					bean.setShippingAddress(rs.getString(SHIPPING_ADDRESS));
 					bean.setOrderStatus(rs.getString(ORDER_STATUS));
